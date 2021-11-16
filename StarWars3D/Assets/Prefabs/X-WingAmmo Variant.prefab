@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1462855424927428, guid: 6d48df3604929774e9bf283bd8925383, type: 3}
       propertyPath: m_Name
-      value: X-WingAmmo
+      value: X-WingAmmo Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4304926407048384, guid: 6d48df3604929774e9bf283bd8925383, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,10 @@ PrefabInstance:
     - target: {fileID: 4304926407048384, guid: 6d48df3604929774e9bf283bd8925383, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54051928621575228, guid: 6d48df3604929774e9bf283bd8925383, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 199307963145921556, guid: 6d48df3604929774e9bf283bd8925383, type: 3}
       propertyPath: m_Materials.Array.size
