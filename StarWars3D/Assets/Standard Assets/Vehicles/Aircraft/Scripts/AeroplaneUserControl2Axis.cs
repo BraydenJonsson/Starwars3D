@@ -10,6 +10,7 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
         // these max angles are only used on mobile, due to the way pitch and roll input are handled
         public float maxRollAngle = 80;
         public float maxPitchAngle = 80;
+        public string airbrakes = "Fire1";
 
         // reference to the aeroplane that we're controlling
         private AeroplaneController m_Aeroplane;
@@ -27,7 +28,7 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
             // Read input for the pitch, yaw, roll and throttle of the aeroplane.
             float roll = CrossPlatformInputManager.GetAxis("Horizontal");
             float pitch = CrossPlatformInputManager.GetAxis("Vertical");
-            bool airBrakes = CrossPlatformInputManager.GetButton("Fire1");
+            bool airBrakes = CrossPlatformInputManager.GetButton(airbrakes);
 
             // auto throttle up, or down if braking.
             float throttle = airBrakes ? -1 : 1;
