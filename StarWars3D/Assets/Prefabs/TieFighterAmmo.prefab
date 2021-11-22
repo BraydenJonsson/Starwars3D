@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1519322442116508, guid: 03621f138d83762479aab581dbbfb1e0, type: 3}
       propertyPath: m_TagString
-      value: EnemyAmmo
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4903523721451584, guid: 03621f138d83762479aab581dbbfb1e0, type: 3}
       propertyPath: m_RootOrder
@@ -71,6 +71,10 @@ PrefabInstance:
     - target: {fileID: 4903523721451584, guid: 03621f138d83762479aab581dbbfb1e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114896872521589134, guid: 03621f138d83762479aab581dbbfb1e0, type: 3}
+      propertyPath: speed
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 135713622178651324, guid: 03621f138d83762479aab581dbbfb1e0, type: 3}
       propertyPath: m_IsTrigger

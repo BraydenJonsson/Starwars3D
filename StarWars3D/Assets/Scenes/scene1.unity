@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 430.04196
+      value: -494
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.y
@@ -557,7 +557,7 @@ MonoBehaviour:
   AnimationTriggerToFireWhenDead: 
   TimeToDelayDestoryWhenDead: 0
   prefabForHitEffects: {fileID: 0}
-  TagOfGameObjectToCauseDamage: EnemyAmmo
+  TagOfGameObjectToCauseDamage: Enemy
   AnimationOfCollidingObjectToCauseDamage: 
   ComponentsToDisableWhileTakingDamage: []
   timeBetweenHits: 500
@@ -578,7 +578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 488.44122
+      value: -397
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.y
@@ -861,7 +861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 601.2705
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.y
@@ -922,7 +922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 475.5068
+      value: -541
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.y
@@ -991,7 +991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 383.3
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 4244168362281341548, guid: a660e893fc8f0df4ebce516763970723, type: 3}
       propertyPath: m_LocalRotation.w
