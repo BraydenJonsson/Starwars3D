@@ -9620,6 +9620,7 @@ GameObject:
   - component: {fileID: 4244168362270194676}
   - component: {fileID: 4244168362270194660}
   - component: {fileID: 4244168362281438899}
+  - component: {fileID: 473244017548092189}
   m_Layer: 8
   m_Name: TIEFighter
   m_TagString: Enemy
@@ -9675,17 +9676,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235a6615124795442b98c1f03500003e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxEnginePower: 25
+  m_MaxEnginePower: 40
   m_Lift: 0.002
   m_ZeroLiftSpeed: 300
-  m_RollEffect: 1
-  m_PitchEffect: 1
+  m_RollEffect: 0.75
+  m_PitchEffect: 0.75
   m_YawEffect: 0.2
   m_BankedTurnEffect: 0.5
   m_AerodynamicEffect: 0.02
   m_AutoTurnPitch: 0.5
-  m_AutoRollLevel: 0.2
-  m_AutoPitchLevel: 0.2
+  m_AutoRollLevel: 0.1
+  m_AutoPitchLevel: 0.1
   m_AirBrakesEffect: 3
   m_ThrottleChangeSpeed: 0.3
   m_DragIncreaseFactor: 0
@@ -9855,6 +9856,20 @@ MonoBehaviour:
   AnimationOfCollidingObjectToCauseDamage: 
   ComponentsToDisableWhileTakingDamage: []
   timeBetweenHits: 500
+--- !u!114 &473244017548092189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4244168362281438796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dc651b8fcf3674aacc1c810d9ec01e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RadarCenterObject: {fileID: 6883010607723405142}
+  MapText: TIE Fighter
 --- !u!1 &4244168362281438812
 GameObject:
   m_ObjectHideFlags: 0
@@ -15145,6 +15160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f86eebc53b5338438ba2abdcdf847ca, type: 3}
+--- !u!1 &6883010607723405142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7305697373148507388, guid: 0f86eebc53b5338438ba2abdcdf847ca, type: 3}
+  m_PrefabInstance: {fileID: 4244168362698748842}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6110976786402182636 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7937838027365496390, guid: 0f86eebc53b5338438ba2abdcdf847ca, type: 3}
