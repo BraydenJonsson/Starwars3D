@@ -370,7 +370,7 @@ MonoBehaviour:
   ScanTerrain: 0
   PlayerName: Gold Leader
   playerObject: {fileID: 780525883}
-  aTexture: {fileID: 2800000, guid: 1d6fb6905b27b254584eccf871904347, type: 3}
+  aTexture: {fileID: 0}
   Radar: {fileID: 780525893}
 --- !u!4 &459310936
 Transform:
