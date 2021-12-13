@@ -432,7 +432,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8074657, y: 1}
+    m_SensorSize: {x: 1.4821732, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -809,7 +809,7 @@ Skybox:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257728605}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: de841822c4fcf1b4087c95159a50dcaf, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: 1b727a93d4fdc84409e85b254886298e, type: 2}
 --- !u!1 &1468056265
 GameObject:
   m_ObjectHideFlags: 3
